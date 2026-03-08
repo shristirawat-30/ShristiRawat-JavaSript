@@ -1,20 +1,20 @@
-const score =400;
+const score =400; //primtive
 console.log(score);
 
 
-const bal = new Number(100);
-console.log(bal);
+const bal = new Number(100); //Number Object
+console.log(bal); //Wraps number into objects using methods
 
 console.log(bal.toString().length);
 console.log(bal.toString());
-console.log(bal.toFixed(2));
+console.log(bal.toFixed(2)); //formats a number to fixed decimal places
 
 const n1 = 23.90439;
-console.log(n1.toPrecision(5));
+console.log(n1.toPrecision(5)); // controls total digits
 
 const hundreds = 10000000;
 
-console.log(hundreds.toLocaleString('en-IN'));
+console.log(hundreds.toLocaleString('en-IN')); //region format
 
 
 //++++++++++++++++++++ MAths ++++++++++++++++
@@ -23,8 +23,8 @@ console.log(Math);
 
 //Object [Math] {}  its a object
 
-console.log(Math.abs(-3));
-console.log(Math.round(4.6));
+console.log(Math.abs(-3)); //remove negative value 
+console.log(Math.round(4.6)); //>=4.5 then 5 
 console.log(Math.round(4.4));
 console.log(Math.ceil(4.2));
 console.log(Math.floor(4.5));
